@@ -1,16 +1,15 @@
 ## Introduction
 
-The game of Rock-Paper-Scissors (RPS) involves two players simultaneously choosing either rock (r), paper (p), or scissors (s). Informally, the rules of the game are that “rock beats scissors, paper beats rock, and scissors beats paper”. ... If two players choose the same item then the round is a tie.
+This game have three categories one is rock(R), paper(P) and scissor(S). One choice is taken by the player and another is taken by the system such that the different choices and one with more powerful choice wins and if selected equal choice draw. Below mentioned are the 
 
 ## Objective 
-The objective of Rock, Paper, Scissors is to defeat your opponent by selecting a weapon that defeats
-their choice under the following rules:
+Rock-Paper-Scissors (referred to in different orders depending on region) is the most basic idea of the concept of attributable strength and weakness.
 
-Rock smashes (or blunts) Scissors, so Rock wins
+Essentially, it sets up an unbreakable loop where every entry defeats another, and is in turn defeated by yet another.
 
-Scissors cut Paper, so Scissors win
-
-Paper covers Rock, so Paper wins
+Rock beats Scissors.
+Scissors beats Paper.
+Paper beats Rock.
 
 If players choose the same weapon, neither win and the game is played again
 
@@ -35,8 +34,8 @@ If players choose the same weapon, neither win and the game is played again
  ##Detail requirements
    
    ## High Level Requirements:
-      This project can be implemented by using c language in both windows and linux os.   # Implemented
-      This project requires a random number generator function.                           # Implemented
+      This project can be implemented by using c language in both windows and linux os.   
+      This project requires a random integer generator function.                           
    ## Low level Requirements:
       The Random number has to generate the numbers with in the specified range of number.
       The comparasion of the character from the player input and the computer generated has to be taken care.
